@@ -1,0 +1,19 @@
+div {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  justify-content: space-around;
+  background-color:  #212529;
+}
+
+mat-icon {
+  cursor: pointer;
+  color: rgb(140, 147, 153);
+  font-size: 25px;
+
+}
+
+span {
+  color: rgb(127, 132, 136);
+  font-size: 35px;
+}

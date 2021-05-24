@@ -1,0 +1,5 @@
+<div>
+  <mat-icon (click)="go(-1)">arrow_back_ios </mat-icon>
+  <span>{{dateService.date | async | dateFormat}}</span>
+  <mat-icon (click)="go(1)">arrow_forward_ios</mat-icon>
+</div>

@@ -1,0 +1,30 @@
+table {
+  width: 600px;
+}
+
+span, th {
+  color: rgb(168, 176, 184);
+  cursor: pointer;
+}
+
+th {
+  text-align: center;
+  border-top: 1px solid #212529;
+  border-right: 1px solid #212529;
+}
+
+td {
+  text-align: end;
+}
+
+.active {
+  color: rgba(255, 0, 0, 0.774);
+  font-weight: bold;
+  border-radius: 30%;
+  border: 2px solid wheat;
+  padding: 5px;
+}
+
+.selected {
+  color: greenyellow;
+}
